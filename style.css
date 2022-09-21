@@ -1,0 +1,19 @@
+/* 
+------------------------------
+    Navigation Bar Styles 
+------------------------------
+*/
+
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav > ul >li {
+    list-style: none;
+    padding: 0px 5px 0px 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
