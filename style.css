@@ -7,6 +7,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.colored-text {
+    color: #89A1EF;
+}
+
+
 /* 
 ------------------------------
     Navigation Bar Styles 
@@ -14,7 +19,7 @@ body {
 */
 
 .container {
-    padding: 10px 200px;
+    padding: 10px 120px;
 }
 
 nav > ul {
@@ -28,5 +33,49 @@ nav > ul >li {
 }
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #2F2F2F;
+}
+
+.title {
+    font-size: 24px;
+    color: #2F2F2F;
+}
+
+/* 
+---------------------
+    Head Section
+---------------------
+*/
+
+.section-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.half-width img {
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.section-container .half-width {
+    width: 50%;
+    padding-left: 120px;
+}
+
+h1 {
+    font-size: 52px;
+    color: #2F2F2F;
+}
+
+button {
+    color: #2F2F2F;
+    background-color: #00a4e051;
+    width: 196px;
+    height: 44px;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px 10px 24px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
 }
