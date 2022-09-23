@@ -81,8 +81,7 @@ button {
     width: 196px;
     height: 44px;
     border: none;
-    border-radius: 41px;
-    padding: 10px 24px 10px 24px;
+    border-radius: 16px;
     letter-spacing: 2px;
     word-spacing: 6px;
 }
@@ -181,4 +180,35 @@ button:hover {
 .see-more > a {
     text-decoration: none;
     padding-left: 83%;
+}
+
+/* 
+---------------------------------
+    Bonus Section Newsletter 
+---------------------------------
+*/
+
+.newsletter-container {
+    display: flex;
+}
+
+.newsletter-container .half-width {
+    width: 50%;
+    padding-right: 124px;
+}
+
+.newsletter-container .half-width > img {
+    width: 86%;
+    padding-left: 120px;
+}
+
+.half-width h1 {
+    margin-top: 120px;
+}
+
+.half-width input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 20px;
 }
