@@ -126,7 +126,7 @@ button:hover {
 .product {
     width: 330px;
     height: 475px;
-    box-shadow: 1px 0px 72px 7px rgb(0 0 255 / 20%); /*correct it later**/
+    box-shadow: 1px 0px 72px 7px rgb(0 0 255 / 20%); /*Wanted to change it but then I think it's look good. That's why I kept it.**/
     border-radius: 5px;
 }
 
@@ -147,6 +147,12 @@ button:hover {
 .product > p {
     display: flex;
     align-items: center;
+}
+
+.product p:last-child {
+    color: #89A1EF;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .product-name {
