@@ -87,6 +87,10 @@ button {
     word-spacing: 6px;
 }
 
+button:hover {
+    background-color: #89A1EF;
+}
+
 /* 
 ------------------------
     Sponsor Section 
@@ -99,4 +103,71 @@ button {
 
 .sponsor img {
     padding: 36px 31px 34px 31px;
+}
+
+/* 
+------------------------
+    Product Styles 
+------------------------
+*/
+.products-container > .product-title {
+    font-size: 28px;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    margin: 30px 196px;
+}
+
+.product {
+    width: 330px;
+    height: 475px;
+    box-shadow: 1px 0px 72px 7px rgb(0 0 255 / 20%); /*correct it later**/
+    border-radius: 5px;
+}
+
+.product:hover {
+    transform: scale(1.1);
+    transition: all .25s ease-in-out;
+}
+
+.product img {
+    width: 100%;
+    /* padding: 15px; */
+}
+
+.product {
+    padding: 15px;
+}
+
+.product > p {
+    display: flex;
+    align-items: center;
+}
+
+.product-name {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+.price {
+    color: #2F2F2F;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.fa-solid {
+    color: #FB8200;
+}
+
+.ratings {
+    padding-left: 8px;
+    font-size: 16px;
 }
