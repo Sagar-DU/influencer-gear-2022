@@ -177,3 +177,8 @@ button:hover {
     padding-left: 8px;
     font-size: 16px;
 }
+
+.see-more > a {
+    text-decoration: none;
+    padding-left: 83%;
+}
