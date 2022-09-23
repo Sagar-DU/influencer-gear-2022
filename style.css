@@ -200,6 +200,7 @@ button:hover {
 .newsletter-container .half-width > img {
     width: 86%;
     padding-left: 120px;
+    background-image: none;
 }
 
 .half-width h1 {
@@ -238,4 +239,27 @@ footer {
 .social i:hover {
     transform: scale(1.5);
     transition: all .2s ease-in-out;
+}
+
+/* 
+-----------------------
+    Responsiveness 
+-----------------------
+*/
+
+/* 
+-----------------------
+    Mobile Devices 
+-----------------------
+*/
+
+@media only screen and (max-width: 688px) {
+    nav {
+        display: none;
+    }
+
+    .sponsors, .products-container, .newsletter-container, footer {
+        display: none;
+    }
+    
 }
