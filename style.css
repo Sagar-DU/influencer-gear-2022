@@ -338,7 +338,31 @@ footer {
         padding-left: 270px;
     }
 
-    .newsletter-container, footer {
+    .newsletter-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .newsletter-container .half-width > img {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .newsletter-container .half-width {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .half-width input {
+        width: 96%;
+        height: 22px;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+
+    footer {
         display: none;
     }
     
