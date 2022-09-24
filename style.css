@@ -371,3 +371,15 @@ footer {
         font-size: 1.5em;
     }
 }
+
+/* 
+----------------------
+    Table Devices 
+----------------------
+*/
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container, .section-container, .sponsors, .products-container, .newsletter-container, footer {
+        display: none;
+    }
+}
