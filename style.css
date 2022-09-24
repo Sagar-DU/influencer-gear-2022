@@ -307,8 +307,16 @@ footer {
     }
 
     .sponsor {
-        display: inline;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    .sponsor img {
+        width: 36px;
+        padding: 22px 20px;
     }
 
     .products-container, .newsletter-container, footer {
