@@ -319,7 +319,26 @@ footer {
         padding: 22px 20px;
     }
 
-    .products-container, .newsletter-container, footer {
+    /* 
+    ------------------------
+        Product Section  
+    ------------------------
+    */
+    .products {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .product {
+        padding: 22px 8px;
+    }
+
+    .see-more > a {
+        padding-left: 270px;
+    }
+
+    .newsletter-container, footer {
         display: none;
     }
     
