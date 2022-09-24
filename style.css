@@ -141,6 +141,7 @@ button:hover {
 
 .product {
     padding: 15px;
+    padding-bottom: 26px;
 }
 
 .product > p {
