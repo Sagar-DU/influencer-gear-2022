@@ -379,7 +379,53 @@ footer {
 */
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-    .container, .section-container, .sponsors, .products-container, .newsletter-container, footer {
+    /* 
+    ------------------------------------
+        Heading and Navigation Bar 
+    ------------------------------------
+    */
+
+    .container {
+        padding: 5px 20px;
+    }
+
+    /* 
+    ------------------------
+        Heading Section  
+    ------------------------
+    */
+    .section-container .half-width {
+        padding-left: 20px;
+    }
+
+    /* 
+    ------------------------
+        Sponsor Section  
+    ------------------------
+    */
+
+    hr {
+        display: none;
+    }
+
+    .sponsor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 100px;
+    }
+
+    /* 
+    ------------------------
+        Product Section  
+    ------------------------
+    */
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+    }
+
+    .newsletter-container, footer {
         display: none;
     }
 }
