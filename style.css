@@ -1,3 +1,5 @@
+@import 'animate.css';
+
 /* 
 -------------------------
     Universal Styles 
@@ -63,6 +65,10 @@ nav ul li a {
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-size:contain;
+}
+
+.animate__animated:hover {
+    animation: animate__tada;
 }
 
 .section-container .half-width {
